@@ -1,0 +1,37 @@
+<div class="main">
+	<h4>Place Your Order Here!</h4>
+	<form action="javascript:void(0);">
+		<fieldset>
+		<legend><div class="number">1</div> Your Info:</legend>
+		<label for="name">Name:</label><br>
+	<input type="text" id="name" name="user_name"><br>
+		<label for="mail">Email:</label><br>
+	<input type="email" id="mail" name="user_email"><br>
+		<label for="phone">Phone:</label><br>
+	<input type="tel" id="phone" name="user_tel"><br>
+		<label for="address">Address:</label><br>
+		<textarea></textarea>
+	</fieldset>
+	<fieldset>
+		<legend><div class="number">2</div> Pasta Choice:</legend>
+		<input type="radio" id="spaghetti" name="pasta"><label>Chola</label>
+		<input type="radio" id="penne" name="pasta"><label>Aloo Paratha</label><br>
+		<input type="checkbox" id="glutenfree" name="glutenfree"><label>Rice and dal</label>
+	</fieldset>
+	<fieldset>
+		<legend><div class="number">3</div> Filling Choice:</legend>
+		<input type="radio" id="mince" name="filling"><label>Fried Soup</label>
+		<input type="radio" id="lentils" name="filling"><label>Dosa</label>
+	</fieldset>
+		<fieldset>
+			<legend><div class="number">4</div> Your Sides:</legend>
+		<input type="radio" id="bread" name="side"><label>Idli Sambhar</label>
+		<input type="radio" id="nobread" name="side"><label>Dahi Vada</label><br>
+			<input type="checkbox" id="glutenfree" name="glutenfree"><label>Puri Sabji</label>
+	</fieldset>
+	<fieldset>
+		<legend><div class="number">5</div> Extra Fillings:</legend>
+		<input type="checkbox" id="mushrooms" name="mushrooms"><label>Mushrooms</label><br>
+		<input type="checkbox" id="onions" name="onions"><label>Onions</label></br>
+	<input type="checkbox" id="carrots" name="carrots"><label>Carrots</label></br>
+<input type="checkbox" id="celery" name="celery"><label>Celery</label></br>
